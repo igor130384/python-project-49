@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "hexlet-code"
+version = "0.1.0"
+description = ""
+authors = ["Igor <GIV_84@mail.ru>"]
+readme = "README.md"
+packages = [{include = "brain_games"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+prompt = "^0.4.1"
+
+
+[tool.poetry.group.dev.dependencies]
+flake8 = "^6.0.0"
+autopep8 = "^2.0.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+[tool.poetry.scripts]
+brain-games = "brain_games.scripts.brain_games:main"
+brain-even = "brain_games.scripts.brain_even:main"
