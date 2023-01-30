@@ -18,6 +18,7 @@ def main():
             numbers.append(r)
             numbers.sort()
         result = numbers[random.randint(1, 10)]
+        numbers.insert(result, "..")
         string = " ".join(map(str, numbers[0:10]))
         string = string.replace(str(result), '..')
         print(f'Question: {string}')
