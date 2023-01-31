@@ -9,7 +9,7 @@ def brain_logics(brain_logic):
     while i < 3:
         result = brain_logic()
         answer = prompt.string('Your answer: ')
-        if int(answer) == int(result):
+        if answer == str(result):
             print('Correct!')
             i += 1
         else:
