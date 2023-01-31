@@ -8,8 +8,8 @@ def brain_even():
 
     def is_even(num):
         if num % 2 == 0:
-            return 'yes'
+            result = 'yes'
         else:
-            return 'no'
-    result = is_even(num)
-    return result, task, question
+            result = 'no'
+        print('Question:', num)
+        return result
