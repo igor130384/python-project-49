@@ -6,13 +6,12 @@ def brain_prime():
     num1 = random.randint(1, 100)
     print('Question:', num1)
 
-    def is_prime(num1):
-        for i in range(2, int(num1/2)+1):
-            if (num1 % i) == 0:
+    def is_prime(num):
+        if num == 1:
+            return 'no'
+        for i in range(2, num):
+            if num % i == 0:
                 return 'no'
-                break
-            else:
-                return 'yes'
-
+        return 'yes'
     result = is_prime(num1)
     return result
