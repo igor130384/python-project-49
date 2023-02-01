@@ -1,7 +1,7 @@
 import random
 
 
-def progression():
+def brain_progression():
     print('What number is missing in the progression?')
     num1 = random.randint(1, 10)
     num2 = random.randint(80, 100)
