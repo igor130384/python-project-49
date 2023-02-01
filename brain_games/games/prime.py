@@ -2,9 +2,9 @@ import random
 
 
 def brain_prime():
-    task = 'Answer "yes" if given number is prime. Otherwise answer "no".'
+    print('Answer "yes" if given number is prime. Otherwise answer "no".')
     num1 = random.randint(1, 100)
-    question = f'Question: {num1}'
+    print(f'Question: {num1}')
 
     def is_prime():
         k = 0
@@ -17,4 +17,4 @@ def brain_prime():
         else:
             return 'no'
     result = is_prime(num1)
-    return result, task, question
+    return result

@@ -2,7 +2,7 @@ import random
 
 
 def progression():
-    task = 'What number is missing in the progression?'
+    print('What number is missing in the progression?')
     num1 = random.randint(1, 10)
     num2 = random.randint(80, 100)
     n = random.randint(2, 10)
@@ -14,5 +14,5 @@ def progression():
     numbers.insert(result, "..")
     string = " ".join(map(str, numbers[0:10]))
     string = string.replace(str(result), '..')
-    question = f'Question: {string}'
-    return result, task, question
+    print(f'Question: {string}')
+    return result
