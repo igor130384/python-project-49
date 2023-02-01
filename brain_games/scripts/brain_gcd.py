@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 from brain_games.games.brain_logics import brain_logics
-from brain_games.games.calc import brain_gcd
+from brain_games.games.gcd import brain_gcd
 
 
 def main():
