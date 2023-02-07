@@ -5,19 +5,20 @@ def brain_logics(brain_logic):
     print('Welcome to the Brain Games!')
     name = prompt.string('May I have your name? ')
     print(f'Hello, {name}!')
-    i = 0
-    while i < 3:
-        result = brain_logic()
+    print(brain_logic.DESCRIPTION)
+    count = 0
+    for _ in range(3):
+        question, result = brain_logic.generate_round()
+        print(f"Question: {question}")
         answer = prompt.string('Your answer: ')
         if answer == str(result):
             print('Correct!')
-            i += 1
+            count += 1
         else:
             print(
                 f"'{answer}' is wrong answer ;(. Correct "
                 f"answer was '{result}'\nLet's try again, {name}!"
             )
             break
-
-        if i == 3:
-            print(f'Congratulations, {name}!')
+    if count == 3:
+        print(f'Congratulations, {name}!')

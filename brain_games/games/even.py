@@ -1,16 +1,19 @@
 import random
+DESCRIPTION = 'Answer "yes" if the number is even, otherwise answer "no".'
 
 
-def brain_even():
-    print('Answer "yes" if the number is even, otherwise answer "no".')
+def generate_round():
+
     num = random.randint(1, 100)
 
-    print(f'Question: {num}')
+    return is_even(num)
 
-    def is_even(num):
-        if num % 2 == 0:
-            return 'yes'
-        else:
-            return 'no'
-    result = is_even(num)
-    return result
+
+def is_even(num):
+    result = ''
+    if num % 2 == 0:
+        result = 'yes'
+    else:
+        result = 'no'
+
+    return num, result

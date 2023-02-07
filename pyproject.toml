@@ -5,6 +5,8 @@ description = ""
 authors = ["Igor <GIV_84@mail.ru>"]
 readme = "README.md"
 packages = [{include = "brain_games"}]
+repository = "https://github.com/igor130384/python-project-49.git"
+classifiers = [Topic :: Games/Entertainment]
 
 [tool.poetry.dependencies]
 python = "^3.10"
