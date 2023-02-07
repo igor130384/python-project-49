@@ -13,6 +13,8 @@ def prime(num):
     for i in range(2, num):
         if num % i == 0:
             result = 'no'
-        result = 'yes'
+            break
+        else: 
+            result = 'yes'
 
     return result
