@@ -1,4 +1,5 @@
 import random
+
 DESCRIPTION = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 
@@ -9,12 +10,12 @@ def generate_round():
 
 def prime(num):
     if num == 1:
-        result = 'no'
+        result = "no"
     for i in range(2, num):
         if num % i == 0:
-            result = 'no'
+            result = "no"
             break
-        else: 
-            result = 'yes'
+        else:
+            result = "yes"
 
     return result

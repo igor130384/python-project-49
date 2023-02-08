@@ -4,3 +4,9 @@
 dist/
 
 pycache/
+
+.vscode/
+
+asciinema/
+
+.idea/
