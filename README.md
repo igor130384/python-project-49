@@ -2,7 +2,7 @@
 [![Actions Status](https://github.com/igor130384/python-project-49/workflows/hexlet-check/badge.svg)](https://github.com/igor130384/python-project-49/actions)
    
  
-<a href="https://codeclimate.com/github/igor130384/python-project-49/test_coverage"><img src="https://api.codeclimate.com/v1/badges/dc8da08af82f3a5a6d22/test_coverage" /></a>
+<a href="https://codeclimate.com/github/igor130384/python-project-49/maintainability"><img src="https://api.codeclimate.com/v1/badges/dc8da08af82f3a5a6d22/maintainability" /></a>
 Игра Brain games!
 
  Для сборки пакета используйте команду make build.
