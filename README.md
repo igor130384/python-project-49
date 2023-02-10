@@ -1,8 +1,11 @@
-### Hexlet tests and linter status:
+### Hexlet tests and linter status
+
 [![Actions Status](https://github.com/igor130384/python-project-49/workflows/hexlet-check/badge.svg)](https://github.com/igor130384/python-project-49/actions)
-   
- 
-[![Maintainability](https://api.codeclimate.com/v1/badges/dc8da08af82f3a5a6d22/maintainability)](https://codeclimate.com/github/igor130384/python-project-49/maintainability)
+
+### codeclimate maintability
+
+[![Maintainability](https://api.codeclimate.com/v1/badges/dd5436f2eebe43fccb00/maintainability)](https://codeclimate.com/github/igor130384/python-project-49/maintainability)
+
 Игра Brain games!
 
  Для сборки пакета используйте команду make build.
@@ -17,7 +20,7 @@
 Игра: "Калькулятор"
 
 Пользователю показывается случайное математическое выражение, например 35 + 16, которое нужно вычислить и записать правильный ответ.
-<a href="https://asciinema.org/a/555715" target="_blank"><img src="https://asciinema.org/a/55
+<a href="https://asciinema.org/a/555715" target="_blank"><img src="<https://asciinema.org/a/55>
 
 Игра "НОД"
 
