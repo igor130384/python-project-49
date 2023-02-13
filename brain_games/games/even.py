@@ -9,8 +9,8 @@ def generate_round():
     return is_even(num)
 
 
-def is_even(number):
-    return number % 2 == 0
+def is_even(num):
+    return num % 2 == 0
 
 
 def even(num):
