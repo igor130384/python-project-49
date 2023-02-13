@@ -14,6 +14,7 @@ def is_even(num):
 
 
 def even():
+    result = ""
     res = is_even()
     if res:
         result = "yes"
