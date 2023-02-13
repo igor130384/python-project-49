@@ -13,11 +13,11 @@ def is_even(num):
     return num % 2 == 0
 
 
-def even(num):
-    ansver = is_even(num)
-    if ansver:
+def even():
+    res = is_even()
+    if res:
         result = "yes"
     else:
         result = "no"
 
-    return num, result
+    return result
