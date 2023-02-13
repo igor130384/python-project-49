@@ -5,7 +5,7 @@ DESCRIPTION = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 def generate_round():
     num1 = random.randint(1, 100)
-    return num1, is_prime(num1)
+    return num1, prime(num1)
 
 
 def is_prime(num):
