@@ -9,13 +9,22 @@ def generate_round():
 
 
 def is_prime(num):
-    if num == 1:
-        result = "no"
     for i in range(2, num):
         if num % i == 0:
-            result = "no"
+            result_prime = False
             break
         else:
-            result = "yes"
+            result_prime = True
 
+    return result_prime
+
+
+def prime(num):
+    ansver = is_prime(num)
+    if num == 1:
+        result = "no"
+    elif ansver:
+        result = "yes"
+    else:
+        result = "no"
     return result

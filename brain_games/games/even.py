@@ -6,12 +6,16 @@ DESCRIPTION = 'Answer "yes" if the number is even, otherwise answer "no".'
 def generate_round():
     num = random.randint(1, 100)
 
-    return even(num)
+    return is_even(num)
+
+
+def is_even(number):
+    return number % 2 == 0
 
 
 def even(num):
-    result = ""
-    if num % 2 == 0:
+    ansver = is_even(num)
+    if ansver:
         result = "yes"
     else:
         result = "no"
